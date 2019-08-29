@@ -1,0 +1,13 @@
+  "name": "nemesisbots",
+  "version": "1.0.0",
+  "description": "Bots officiel Menesis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ded Khasan",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}
