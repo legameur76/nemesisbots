@@ -1,13 +1,21 @@
-  "name": "nemesisbots",
+{
+  "name": "Nemesis Bots",
+
   "version": "1.0.0",
-  "description": "Bots officiel Menesis",
-  "main": "index.js",
+  "description": "This version of __ is for temporary deployment.",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "test.js",
+    "start": "node app.js"
   },
   "author": "Ded Khasan",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.5.1"
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "request": "^2.83.0"
+  },
+  "engines": {
+    "node":"^8.9.4"
   }
 }
